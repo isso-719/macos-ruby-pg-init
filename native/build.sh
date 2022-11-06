@@ -1,6 +1,6 @@
 #!/bin/zsh
 #
-# MacOS Ruby, PostgreSQL, Heroku build script
+# MacOS Ruby, PostgreSQL, Heroku CLI build script
 #
 # @author Kazuki Isogai (github.com/isso-719)
 
