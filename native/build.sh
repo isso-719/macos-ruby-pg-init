@@ -58,21 +58,21 @@ rbenv global 3.0.0
 source ~/.zshrc
 
 # PostgreSQL install
-brew install postgresql@14
+brew install postgresql@15
 brew install libpq
 
 # PostgreSQL start
-brew services start postgresql@14
+brew services start postgresql@15
 cat <<'EOF' >> ~/.zshrc
 
 # PostgreSQL
-export PATH="/usr/local/opt/postgresql@14/bin:$PATH"
+export PATH="/usr/local/opt/postgresql@15/bin:$PATH"
 EOF
 source ~/.zshrc
 
 # initdb
 initdb /usr/local/var/postgres
-brew services restart postgresql@14
+brew services restart postgresql@15
 
 # Create database
 createdb $(whoami)
